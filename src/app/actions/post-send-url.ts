@@ -32,6 +32,8 @@ export default async function SendUrl(form: FormData) {
         data: data
       }
     } catch (error) {
+      console.log(error)
+
       return {
         error: 400,
         data: "erro desconhecido"
