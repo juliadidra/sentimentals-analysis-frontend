@@ -84,7 +84,7 @@ const Form = () => {
         <SubmitButton text="Send to AI" className="w-full" />
       </form>
       
-      <div className="flex items-center gap-5 max-h-72">
+      <div className="flex flex-col md:flex-row items-center gap-5 max-h-72">
         {mostNeg &&(
           <div className="bg-zinc-50 dark:bg-zinc-900 border border-zinc-500 rounded-md flex flex-col items-center gap-4 p-5 w-96 h-full overflow-y-auto">
             <h3 className="text-start w-full text-lg dark:text-red-300 text-red-600">Comentário mais negativo</h3>
