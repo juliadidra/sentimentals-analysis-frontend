@@ -26,6 +26,10 @@ export default async function SendUrl(form: FormData) {
         codigo: videoId,
         lang: lang
       });
+
+      if(data.error) {
+        throw new Error(data.error);
+      }
   
       return {
         error: null,
