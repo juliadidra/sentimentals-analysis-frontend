@@ -15,4 +15,5 @@ Este projeto realiza uma análise de sentimentos em vídeos do YouTube. Basta in
 -  ``LeIA``
 
 ## 📁 Acesso ao projeto
-Você pode acessar o projeto clicando [aqui]([https://projeto-techbooks.vercel.app/](https://sentimentals-analysis-frontend-45lce0phq-juliadidras-projects.vercel.app/)).
+Você pode acessar o projeto clicando [aqui](https://sentimentals-analysis-frontend-45lce0phq-juliadidras-projects.vercel.app/).
+
